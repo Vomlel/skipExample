@@ -1,0 +1,17 @@
+{
+    "name": "skip-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "Jan Vomlel (jv@2scale.net)",
+    "license": "ISC",
+    "devDependencies": {
+        "@cypress/skip-test": "^2.6.1",
+        "cypress": "^13.7.0"
+    },
+    "scripts": {
+        "test": "cypress",
+        "cy:run": "cypress run --browser chrome --spec cypress/e2e",
+        "cy:open": "cypress open --e2e --browser chrome"
+    }
+}
