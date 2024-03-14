@@ -2,7 +2,7 @@ import {onlyOn, skipOn} from '@cypress/skip-test'
 
 describe('Example skipping', () => {
 
-  it('failig -> skipping test', () => {
+  it('failing -> skipping test', () => {
 
     cy.on('fail', (err, runnable) => {
       // you can check here what kind of exception it is and adapt behavior (like - if a backend is not running - then skip tests that need to use the backend)
